@@ -1,0 +1,11 @@
+// postcss.config.cjs
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
+
+export default {
+  plugins: [
+    tailwindcss,
+    autoprefixer,
+    // Tambahkan plugin lain jika diperlukan
+  ]
+};
