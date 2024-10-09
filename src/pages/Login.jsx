@@ -20,7 +20,7 @@ const Login = ({setLoggedIn}) => {
     }
 
     try {
-      const response = await fetch('http://localhost:3000/user-log-in', {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_SERVER}/user-log-in`, {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
@@ -32,7 +32,6 @@ const Login = ({setLoggedIn}) => {
       const data = await response.json();
       console.log(data)
 
-      alert(data.message)
       if (data.status) {
           setLoggedIn(true)
           localStorage.setItem("loggedIn", "true")

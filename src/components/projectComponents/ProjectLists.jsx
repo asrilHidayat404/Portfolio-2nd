@@ -2,13 +2,13 @@ import React from 'react'
 
 const ProjectLists = () => {
   return (
-        <div className="lg:w-1/6 md:w-1/4 sm:w-1/3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="lg:w-1/6 md:w-1/4 sm:w-1/3 bg-white border border-gray-200 rounded-lg shadow-md">
             <a href="#">
                 <img className="rounded-t-lg" src="https://repository-images.githubusercontent.com/213608013/45592f00-ea1b-11e9-8846-ccfcb8897f62" alt="" />
             </a>
-            <div className="p-5">
+            <div className="p-3">
                 <a href="#">
-                <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 font-bold tracking-tight">
                     RMDB
                 </h5>
                 </a>

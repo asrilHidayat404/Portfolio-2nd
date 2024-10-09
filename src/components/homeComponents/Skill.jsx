@@ -5,6 +5,8 @@ import Js from "../../assets/skillLogos/js.png"
 import Tailwind from "../../assets/skillLogos/tailwind.png"
 import React from "../../assets/skillLogos/react.svg"
 import Mysql from "../../assets/skillLogos/sql.png"
+import Next from "../../assets/skillLogos/next.png"
+import Express from "../../assets/skillLogos/express.png"
 
 const Skill = () => {
     return (
@@ -18,7 +20,9 @@ const Skill = () => {
                 <ListSkill Icon={Js} SkillName={"JavaScript"}/>
                 <ListSkill Icon={Tailwind} SkillName={"Tailwind"}/>
                 <ListSkill Icon={React} SkillName={"React"}/>
+                <ListSkill Icon={Express} SkillName={"Express JS"}/>
                 <ListSkill Icon={Mysql} SkillName={"Mysql"}/>
+                <ListSkill Icon={Next} SkillName={"Next JS"}/>
             </div>
         </div>
     )
